@@ -1,3 +1,4 @@
+#if 0 // Not compatible with IDN2
 /*
  * Copyright (c) 2005 Erik Abele. All rights reserved.
  * Portions Copyright (c) 2005 Yuki Mitsui. All rights reserved.
@@ -158,3 +159,4 @@ void init_punycode(void)
   rb_define_singleton_method(mPunycode, "encode", encode, 1);
   rb_define_singleton_method(mPunycode, "decode", decode, 1);
 }
+#endif

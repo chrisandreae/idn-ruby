@@ -1,3 +1,4 @@
+#if 0 // Not compatible with IDN2
 /*
  * Copyright (c) 2005-2006 Erik Abele. All rights reserved.
  * Portions Copyright (c) 2005 Yuki Mitsui. All rights reserved.
@@ -181,3 +182,4 @@ void init_stringprep(void)
   rb_define_singleton_method(mStringprep, "with_profile", with_profile, 2);
   rb_define_singleton_method(mStringprep, "nfkc_normalize", nfkc_normalize, 1);
 }
+#endif

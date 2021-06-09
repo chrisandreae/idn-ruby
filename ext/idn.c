@@ -54,6 +54,4 @@ void Init_idn(void)
   eIDNError = rb_define_class_under(mIDN, "IDNError", rb_eStandardError);
 
   init_idna();
-  init_punycode();
-  init_stringprep();
 }

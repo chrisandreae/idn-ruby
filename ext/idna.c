@@ -21,8 +21,12 @@
 
 #include <stdlib.h>
 #include <ruby.h>
-#include <idna.h>
+#include <idn2.h>
 #include "idn.h"
+
+# ifndef IDNA_ACE_PREFIX
+#  define IDNA_ACE_PREFIX "xn--"
+# endif
 
 /*
  * Document-class: IDN::Idna

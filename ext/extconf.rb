@@ -21,8 +21,8 @@
 
 require 'mkmf'
 
-@libs = ['idn']
-@headers = ['idna.h', 'punycode.h', 'stringprep.h']
+@libs = ['idn2']
+@headers = ['idn2.h']
 
 INFO_NOTE = <<EOL
   Please install the GNU IDN library or alternatively specify at least one
